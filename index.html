@@ -1,0 +1,265 @@
+
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <!-- Meta tags Obrigatórias -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+
+    <!-- HTML5Shiv -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+    <![endif]-->
+
+    <!-- Estilo customizado -->
+    <link rel="stylesheet" type="text/css" href="css/estilo.css">
+
+    <title>Música para todos - Spotify</title>
+    <link rel="icon" type="text/css" href="imagens/favicon.png">
+  </head>
+  <body>
+    
+    <header><!-- Ínicio cabeçalho -->
+      <nav class="navbar navbar-expand-md navbar-light fixed-top navbar-transparent">
+        <div class="container">
+          <a href="index.html" class="navbar-brand">
+          <img src="imagens/spotify.svg" width="142">
+        </a>
+
+        <button class="navbar-toggler" data-toggle="collapse" data-target="#nav-principal">
+          <i class="fas fa-bars text-white"></i>
+        </button>
+
+        <div class="collapse navbar-collapse" id="nav-principal">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="https://www.spotify.com/br/premium/">Premium</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="https://support.spotify.com/br/?_gl=1*cyyskz*_gcl_aw*R0NMLjE2MzA4MDQ0NjYuQ2owS0NRandzc3lKQmhEWEFSSXNBSzk4SVRROXdHdnI0cC1PQUZXbkdPbWNiYWo3MFdZcndBSXNTaklrUXM3a2hOOEQtdFR3QkxIZmUxNGFBdklnRUFMd193Y0I.*_gcl_dc*R0NMLjE2MzA4MDQ0NjYuQ2owS0NRandzc3lKQmhEWEFSSXNBSzk4SVRROXdHdnI0cC1PQUZXbkdPbWNiYWo3MFdZcndBSXNTaklrUXM3a2hOOEQtdFR3QkxIZmUxNGFBdklnRUFMd193Y0I.&_ga=2.162558393.423225971.1630804470-373342260.1630804468&_gac=1.13974597.1630804647.Cj0KCQjwssyJBhDXARIsAK98ITQ9wGvr4p-OAFWnGOmcbaj70WYrwAIsSjIkQs7khN8D-tTwBLHfe14aAvIgEALw_wcB">Suporte</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="https://www.spotify.com/br/download/windows/?_ga=2.87446173.423225971.1630804470-373342260.1630804468&_gac=1.81196773.1630804647.Cj0KCQjwssyJBhDXARIsAK98ITQ9wGvr4p-OAFWnGOmcbaj70WYrwAIsSjIkQs7khN8D-tTwBLHfe14aAvIgEALw_wcB">Baixar</a>
+            </li>
+
+            <li class="nav-item divisor"></li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="https://www.spotify.com/br/signup/">Inscrever-se</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="https://accounts.spotify.com/pt-BR/login/?continue=https:%2F%2Fopen.spotify.com%2F%3Fl2l%3D1&_gl=1*15zelt8*_gcl_aw*R0NMLjE2MzA4MDQ0NjYuQ2owS0NRandzc3lKQmhEWEFSSXNBSzk4SVRROXdHdnI0cC1PQUZXbkdPbWNiYWo3MFdZcndBSXNTaklrUXM3a2hOOEQtdFR3QkxIZmUxNGFBdklnRUFMd193Y0I.*_gcl_dc*R0NMLjE2MzA4MDQ0NjYuQ2owS0NRandzc3lKQmhEWEFSSXNBSzk4SVRROXdHdnI0cC1PQUZXbkdPbWNiYWo3MFdZcndBSXNTaklrUXM3a2hOOEQtdFR3QkxIZmUxNGFBdklnRUFMd193Y0I.&_ga=2.68647188.423225971.1630804470-373342260.1630804468&_gac=1.82262372.1630804647.Cj0KCQjwssyJBhDXARIsAK98ITQ9wGvr4p-OAFWnGOmcbaj70WYrwAIsSjIkQs7khN8D-tTwBLHfe14aAvIgEALw_wcB">Entrar</a>
+            </li>
+          </ul>
+        </div>
+
+        </div>
+      </nav>
+    </header><!-- Fim cabeçalho -->
+
+    <section id="home" class="d-flex"><!-- Home -->
+      <div class="container align-self-center"><!-- Ínicio container -->
+        <div class="row"><!-- Ínicio row -->
+          <div class="col-md-12 capa">
+
+            <div id="carousel-spotify" class="carousel slide" data-ride="carousel">
+              <div class="carousel-inner">
+
+                <div class="carousel-item active">
+                  <h1>Música para Todos</h1>
+                      <a href="" class="btn btn-lg btn-custom btn-roxo">
+                        Aproveite o Spotify Free
+                      </a>
+
+                      <a href="" class="btn btn-lg btn-custom btn-branco">
+                        Obter Spotify Premium
+                      </a>
+                </div>
+
+                <div class="carousel-item">
+                  <h1>As Melhores Rádios</h1>
+                
+                      <a href="" class="btn btn-lg btn-custom btn-branco">
+                        <i class="fas fa-music"></i> Ouça Agora
+                      </a>
+                </div>
+
+              </div>
+
+              <a href="#carousel-spotify" class="carousel-control-prev" data-slide="prev">
+                <i class="fas fa-angle-left fa-3x"></i>
+              </a>
+
+              <a href="#carousel-spotify" class="carousel-control-next" data-slide="next">
+                <i class="fas fa-angle-right fa-3x"></i>
+              </a>
+
+
+            </div>
+            
+          </div>
+        </div><!-- Fim row -->
+      </div><!-- Fim container -->
+    </section><!-- Fim home -->
+
+    <section id="servicos" class="caixa">
+      <div class="container">
+        <div class="row albuns">
+          <div class="col-md-6">
+            <div class="row">
+                <div class="col-md-6">
+                    <img src="imagens/img1.jpg" class="img-fluid d-none d-md-block">
+                </div>
+                <div class="col-md-6">
+                    <img src="imagens/img2.jpg" class="img-fluid d-none d-md-block">
+                </div>
+                <div class="row albuns">
+                <div class="col-md-6">
+                    <img src="imagens/img3.jpg" class="img-fluid d-none d-md-block">
+                </div>
+                <div class="col-md-6">
+                    <img src="imagens/img4.jpg" class="img-fluid d-none d-md-block">
+                </div>
+            </div>
+            </div>
+          </div>
+           <div class="col-md-6">
+            
+            <h2>O que o Spotify tem?</h2>
+
+            <h3>Notícias</h3>
+            <p>
+              O Spotify tem milhões de músicas. Escute seus sons favoritos, descubra novas músicas e reúna seus favoritos em umsó lugar
+            </p>
+
+            <h3>Playlists</h3>
+            <p>
+              No Spotify você encontra uma playlist para cada momento. Todas feita por fantásticos especialistas da música.
+            </p>
+
+            <h3>Novos lançamentos</h3>
+            <p>
+              Escute os novos lançamentos de singles e álbuns da semana e veja o que está bombando no Top 50.
+            </p>
+
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="recursos" class="caixa">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-4">
+            
+            <h2>Fácil</h2>
+            <h3>Buscar</h3>
+            <p>
+              Já sabe o que quer estudar? É só procurar e apertar o play.
+            </p>
+
+            <h3>Navegar</h3>
+            <p>
+              Veja os novos lançamentos, o que está bombando nas paradas e as melhores playlists para o seu momento.
+            </p>
+
+            <h3>Descobrir</h3>
+            <p>
+              Curta músicas novas toda segunda-feira com uma plylist personalizada pra você. Ou relaxe e curta uma das rádios.
+            </p>
+
+          </div>
+          <div class="col-md-8">
+            <div class="row rotacionar">
+              <div class="col-md-6">
+                <img src="imagens/iphone1.png" class="img-fluid">
+              </div>
+
+              <div class="col-md-6">
+                <img src="imagens/iphone2.png" class="img-fluid">
+              </div>
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      <div class="container">
+        <div class="row">
+
+          <div class="col-md-2">
+            <img src="imagens/spotify.svg" width="142">
+          </div>
+
+          <div class="col-md-2">
+               <h4>Empresa</h4>
+
+               <ul class="navbar-nav">
+                 <li><a href="https://www.spotify.com/br/about-us/contact/">Sobre</a></li>
+                 <li><a href="https://www.lifeatspotify.com/?_gl=1*11ssj83*_gcl_aw*R0NMLjE2MzA4MDQ0NjYuQ2owS0NRandzc3lKQmhEWEFSSXNBSzk4SVRROXdHdnI0cC1PQUZXbkdPbWNiYWo3MFdZcndBSXNTaklrUXM3a2hOOEQtdFR3QkxIZmUxNGFBdklnRUFMd193Y0I.*_gcl_dc*R0NMLjE2MzA4MDQ0NjYuQ2owS0NRandzc3lKQmhEWEFSSXNBSzk4SVRROXdHdnI0cC1PQUZXbkdPbWNiYWo3MFdZcndBSXNTaklrUXM3a2hOOEQtdFR3QkxIZmUxNGFBdklnRUFMd193Y0I.&_ga=2.93851672.423225971.1630804470-373342260.1630804468&_gac=1.50195156.1630804647.Cj0KCQjwssyJBhDXARIsAK98ITQ9wGvr4p-OAFWnGOmcbaj70WYrwAIsSjIkQs7khN8D-tTwBLHfe14aAvIgEALw_wcB">Empregos</a></li>
+                 <li><a href="https://newsroom.spotify.com/?_gl=1%2A11ssj83%2A_gcl_aw%2AR0NMLjE2MzA4MDQ0NjYuQ2owS0NRandzc3lKQmhEWEFSSXNBSzk4SVRROXdHdnI0cC1PQUZXbkdPbWNiYWo3MFdZcndBSXNTaklrUXM3a2hOOEQtdFR3QkxIZmUxNGFBdklnRUFMd193Y0I.%2A_gcl_dc%2AR0NMLjE2MzA4MDQ0NjYuQ2owS0NRandzc3lKQmhEWEFSSXNBSzk4SVRROXdHdnI0cC1PQUZXbkdPbWNiYWo3MFdZcndBSXNTaklrUXM3a2hOOEQtdFR3QkxIZmUxNGFBdklnRUFMd193Y0I.&_ga=2.93851672.423225971.1630804470-373342260.1630804468&_gac=1.50195156.1630804647.Cj0KCQjwssyJBhDXARIsAK98ITQ9wGvr4p-OAFWnGOmcbaj70WYrwAIsSjIkQs7khN8D-tTwBLHfe14aAvIgEALw_wcB">For the Record</a></li>
+               </ul>
+
+          </div>
+
+          <div class="col-md-2">
+                <h4>Comunidades</h4>
+
+                <ul class="navbar-nav">
+                 <li><a href="https://artists.spotify.com/?_gl=1*1b2mydu*_gcl_aw*R0NMLjE2MzA4MDQ0NjYuQ2owS0NRandzc3lKQmhEWEFSSXNBSzk4SVRROXdHdnI0cC1PQUZXbkdPbWNiYWo3MFdZcndBSXNTaklrUXM3a2hOOEQtdFR3QkxIZmUxNGFBdklnRUFMd193Y0I.*_gcl_dc*R0NMLjE2MzA4MDQ0NjYuQ2owS0NRandzc3lKQmhEWEFSSXNBSzk4SVRROXdHdnI0cC1PQUZXbkdPbWNiYWo3MFdZcndBSXNTaklrUXM3a2hOOEQtdFR3QkxIZmUxNGFBdklnRUFMd193Y0I.&_ga=2.101102212.423225971.1630804470-373342260.1630804468&_gac=1.16583364.1630804647.Cj0KCQjwssyJBhDXARIsAK98ITQ9wGvr4p-OAFWnGOmcbaj70WYrwAIsSjIkQs7khN8D-tTwBLHfe14aAvIgEALw_wcB">Para Artistas</a></li>
+                 <li><a href="https://developer.spotify.com/?_gl=1*1b2mydu*_gcl_aw*R0NMLjE2MzA4MDQ0NjYuQ2owS0NRandzc3lKQmhEWEFSSXNBSzk4SVRROXdHdnI0cC1PQUZXbkdPbWNiYWo3MFdZcndBSXNTaklrUXM3a2hOOEQtdFR3QkxIZmUxNGFBdklnRUFMd193Y0I.*_gcl_dc*R0NMLjE2MzA4MDQ0NjYuQ2owS0NRandzc3lKQmhEWEFSSXNBSzk4SVRROXdHdnI0cC1PQUZXbkdPbWNiYWo3MFdZcndBSXNTaklrUXM3a2hOOEQtdFR3QkxIZmUxNGFBdklnRUFMd193Y0I.&_ga=2.101102212.423225971.1630804470-373342260.1630804468&_gac=1.16583364.1630804647.Cj0KCQjwssyJBhDXARIsAK98ITQ9wGvr4p-OAFWnGOmcbaj70WYrwAIsSjIkQs7khN8D-tTwBLHfe14aAvIgEALw_wcB">Desenvolvedores</a></li>
+                 <li><a href="https://ads.spotify.com/pt-BR/?_gl=1*1b2mydu*_gcl_aw*R0NMLjE2MzA4MDQ0NjYuQ2owS0NRandzc3lKQmhEWEFSSXNBSzk4SVRROXdHdnI0cC1PQUZXbkdPbWNiYWo3MFdZcndBSXNTaklrUXM3a2hOOEQtdFR3QkxIZmUxNGFBdklnRUFMd193Y0I.*_gcl_dc*R0NMLjE2MzA4MDQ0NjYuQ2owS0NRandzc3lKQmhEWEFSSXNBSzk4SVRROXdHdnI0cC1PQUZXbkdPbWNiYWo3MFdZcndBSXNTaklrUXM3a2hOOEQtdFR3QkxIZmUxNGFBdklnRUFMd193Y0I.&_ga=2.101102212.423225971.1630804470-373342260.1630804468&_gac=1.16583364.1630804647.Cj0KCQjwssyJBhDXARIsAK98ITQ9wGvr4p-OAFWnGOmcbaj70WYrwAIsSjIkQs7khN8D-tTwBLHfe14aAvIgEALw_wcB">Publicidade</a></li>
+                 <li><a href="https://investors.spotify.com/home/default.aspx">Investidores</a></li>
+                 <li><a href="https://spotifyforvendors.com/">Fornecedores</a></li>
+                 </ul>
+
+          </div>
+
+          <div class="col-md-2">
+                <h4>Links Úteis</h4>
+
+                <ul class="navbar-nav">
+                 <li><a href="https://support.spotify.com/br/?_gl=1*1eq7i25*_gcl_aw*R0NMLjE2MzA4MDQ0NjYuQ2owS0NRandzc3lKQmhEWEFSSXNBSzk4SVRROXdHdnI0cC1PQUZXbkdPbWNiYWo3MFdZcndBSXNTaklrUXM3a2hOOEQtdFR3QkxIZmUxNGFBdklnRUFMd193Y0I.*_gcl_dc*R0NMLjE2MzA4MDQ0NjYuQ2owS0NRandzc3lKQmhEWEFSSXNBSzk4SVRROXdHdnI0cC1PQUZXbkdPbWNiYWo3MFdZcndBSXNTaklrUXM3a2hOOEQtdFR3QkxIZmUxNGFBdklnRUFMd193Y0I.&_ga=2.99644059.423225971.1630804470-373342260.1630804468&_gac=1.95277806.1630804647.Cj0KCQjwssyJBhDXARIsAK98ITQ9wGvr4p-OAFWnGOmcbaj70WYrwAIsSjIkQs7khN8D-tTwBLHfe14aAvIgEALw_wcB">Suporte</a></li>
+                 <li><a href="https://open.spotify.com/?_gl=1*1eq7i25*_gcl_aw*R0NMLjE2MzA4MDQ0NjYuQ2owS0NRandzc3lKQmhEWEFSSXNBSzk4SVRROXdHdnI0cC1PQUZXbkdPbWNiYWo3MFdZcndBSXNTaklrUXM3a2hOOEQtdFR3QkxIZmUxNGFBdklnRUFMd193Y0I.*_gcl_dc*R0NMLjE2MzA4MDQ0NjYuQ2owS0NRandzc3lKQmhEWEFSSXNBSzk4SVRROXdHdnI0cC1PQUZXbkdPbWNiYWo3MFdZcndBSXNTaklrUXM3a2hOOEQtdFR3QkxIZmUxNGFBdklnRUFMd193Y0I.&_ga=2.99644059.423225971.1630804470-373342260.1630804468&_gac=1.95277806.1630804647.Cj0KCQjwssyJBhDXARIsAK98ITQ9wGvr4p-OAFWnGOmcbaj70WYrwAIsSjIkQs7khN8D-tTwBLHfe14aAvIgEALw_wcB">Player da web</a></li>
+                 <li><a href="https://www.spotify.com/br/free/">Aplicativo Móvel Grátis</a></li>
+               </ul>
+
+          </div>
+
+          <div class="col-md-4">
+                <ul>
+                  <li>
+                    <a href="https://www.facebook.com/Spotify"><img src="imagens/facebook.png"></a>
+                  </li>
+
+                   <li>
+                    <a href="https://twitter.com/spotify"><img src="imagens/twitter.png"></a>
+                  </li>
+
+                   <li>
+                    <a href="https://www.instagram.com/spotify/"><img src="imagens/instagram.png"></a>
+                  </li>
+
+                </ul>          
+          </div>
+
+        </div>
+      </div>
+    </footer>
+
+
+    <!-- JavaScript (Opcional) -->
+    <!-- jQuery primeiro, depois Popper.js, depois Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+  </body>
+</html>
